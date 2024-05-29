@@ -1,12 +1,13 @@
-Package: demuxSNP-benchmarking-datasets
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Package: demuxSNPbenchmarkingdatasets
+Title: Processed Benchmarking Data for demuxSNP Manuscript
+Version: 1.0.0
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Michael", "Lynch", , "michael.lynch@ul.ie", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-9535-6461"))
+Description: The packages stores and provides programmatic access to the processed simulated benchmarking data used in the demuxSNP manuscript.
+License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
+Depends: 
+  SingleCellExperiment
